@@ -4,24 +4,15 @@
 	<meta http-equiv="content-type" content="text/html" charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>
-		HTML5 responsive website tutorial
-	</title>
+Portfolio Website	</title>
 	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 	<link href="lightbox/css/lightbox.css" rel="stylesheet" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'/>
-	<script src="js/modernizr.js">
-		
-		
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 	
-	
-	</script>
-	<script src="js/respond.min.js">
-		
-		
-	
-	
-	</script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/respond.min.js"></script>
 	<!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
 	<!--<script src="http://code.jquery.com/jquery-1.7.2.min.js">-->
 		
@@ -37,24 +28,9 @@
 	
 	
 	</script>-->
-	<script src="lightbox/js/lightbox.js">
-		
-		
-	
-	
-	</script>
-	<script src="js/prefixfree.min.js">
-		
-		
-	
-	
-	</script>
-	<script src="js/jquery.slides.min.js">
-		
-		
-	
-	
-	</script>
+	<script src="lightbox/js/lightbox.js"></script>
+	<script src="js/prefixfree.min.js">	</script>
+	<script src="js/jquery.slides.min.js"></script>
     
    
    <script>
@@ -65,7 +41,7 @@ navigation: false,
 pagination: false,
 effect: {
 fade: {
-speed: 400
+speed: 100
 }
 },callback:
 {
@@ -128,8 +104,8 @@ $(".toggleMobile").removeClass("active");
 <div id="mobileMenu">
 <ul>
 <li><a href="javascript:void(0)">Home</a></li>
-<li><a href="javascript:void(0)">Porfolio</a></li>
-<li><a href="javascript:void(0)">About</a></li>
+<li><a href="#boxcontent">About</a></li>
+<li><a href="javascript:void(0)">Contact</a></li>
 </ul>
 </div>
 		<h1>
@@ -143,14 +119,12 @@ $(".toggleMobile").removeClass("active");
 				<li>
 					<a href="javascript:void(0)"> Home </a>
 				</li>
+				
 				<li>
-					<a href="javascript:void(0)"> Portfolio </a>
+					<a href="#boxcontent"> About </a>
 				</li>
 				<li>
-					<a href="javascript:void(0)"> About </a>
-				</li>
-				<li>
-					<a href="javascript:void(0)"> Contact </a>
+					<a href="#copyright"> Contact </a>
 				</li>
 			</ul>
 		</nav>
@@ -161,33 +135,30 @@ $(".toggleMobile").removeClass("active");
 		</h2>
 		<article id="slider_content1">
 			<h3>
-				Lorem ipsum dolor?
+				Crafting Clean, Responsive & Accessible Web Experiences
 			</h3>
 			<p>
-				Far behind, behind the word mountains, far from the lands of vocabulary and consonants live the blind texts. Secluded, you live in Buchstabhausen on the coast of Semantik.
-				<a href="javascript:void(0)" class="responsive_button">Mehr lesen...</a>
+				Front-end developer and QA tester focused on creating websites that are not only beautiful but also functional, inclusive, and user-friendly.				<a href="javascript:void(0)" class="responsive_button">Mehr lesen...</a>
             </p>
-	<a class="button" href="javascript:void(0)">Mehr lesen</a>
+	<!--<a class="button" href="javascript:void(0)">Mehr lesen</a>-->
 		</article>
 		<article id="slider_content2">
 			<h3>
-				Nulla consequat
+				Front-End Development with Attention to Detail
 			</h3>
 			<p>
-				A little turtle called Duden flows through her place and provides her with the necessary regularities. It is a paradise-like country in which a fried phrases fly into the mouth.
-		      <a href="javascript:void(0)" class="responsive_button">Mehr lesen...</a>
+				Skilled in HTML, CSS, JavaScript, and Bootstrap — I build responsive interfaces that deliver smooth and consistent experiences across all devices.		      <a href="javascript:void(0)" class="responsive_button">Mehr lesen...</a>
         	</p>
-		<a class="button" href="javascript:void(0)">Mehr lesen</a>
+		<!--<a class="button" href="javascript:void(0)">Mehr lesen</a>-->
 		</article>
 		<article id="slider_content3">
 			<h3>
-				Lorem ipsum
+				Manual Testing
 			</h3>
 			<p>
-				Not even the omnipotent punctuation controls the blind texts an almost unorthographical life.
-                <a href="javascript:void(0)" class="responsive_button">Mehr lesen...</a>
+				From usability checks to cross-browser and accessibility testing, I ensure every website I work on is polished and error-free.                <a href="javascript:void(0)" class="responsive_button">Mehr lesen...</a>
 			</p>
-		<a class="button" href="javascript:void(0)">Mehr lesen</a>
+	<!--<a class="button" href="javascript:void(0)">Mehr lesen</a>-->	
 		</article>
 		<div id="slides">
 			<img src="img/img1.jpg" alt="Some alt text">
@@ -200,8 +171,7 @@ $(".toggleMobile").removeClass("active");
 			Dolor sit amet
 		</h2>
 		<p>
-			Lorem ipsum dolor sit amet, consectetuer adipiscing elit?
-		</p>
+			Explore my work across web development		</p>
 		<div class="search">
 			<form action="#">
 				<input type="text" name="sitesearch" value="Enter a word..."/>
@@ -210,153 +180,97 @@ $(".toggleMobile").removeClass("active");
 		</div>
 	</section>
 	<section id="boxcontent">
-		<h2 class="hidden">
-			Adipiscing
-		</h2>
-		<article>
-			<img src="img/icon1.png" alt="alt text" width="50" height="50"/>
-			<h3>
-				Lorem ipsum
-			</h3>
-			<p>
-				Eines Tages aber beschlo? eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen.
-			</p>
-		</article>
-		<article>
-			<img src="img/icon2.png" alt="alt text" width="50" height="50"/>
-			<h3>
-				Consectetuer
-			</h3>
-			<p>
-				Der gro?e Oxmox riet ihr davon ab, da es dort wimmele von b?sen Kommata, wilden Fragezeichen...
-			</p>
-		</article>
-		<article>
-			<img src="img/icon3.png" alt="alt text" width="50" height="50"/>
-			<h3>
-				Dolor sit amet
-			</h3>
-			<p>
-				Es packte seine sieben Versalien, schob sich sein Initial in den G?rtel und machte sich auf den Weg.
-			</p>
-		</article>
+		<h2>Work Experience</h2>
+
+		<div class="tabs">
+		  <button class="tab-button active" onclick="showTab('company1')">Publishing Concepts Inc.</button>
+		  <button class="tab-button" onclick="showTab('company2')">BarrierBreak</button>
+		  <button class="tab-button" onclick="showTab('company3')">Indea Design Systems Pvt Ltd</button>
+		</div>
+	  
+		<div id="company1" class="tab-content active">
+		  <h3>Web Developer & QA Support</h3><br> 
+		  <ul class="styled-list">
+			<li>Responsible for the quality and timely delivery of weekly consumer-facing website implementations, ensuring consistent, high-quality user experiences.</li>
+			<li>Assisted with thorough manual testing of applications before production releases to confirm that deployments were error-free and fully functional.</li>
+			<li>Collaborated with clients to ensure user acceptance by verifying that newly launched features and updates met functionality expectations.</li>
+			<li>Participated in code reviews, offering constructive feedback to maintain code quality and promote best practices across the team.</li>
+			<li>Coordinated with web designers and website administrators to integrate visual and functional elements seamlessly.</li>
+			<li>Managed server deployment and file uploads, ensuring websites and applications were properly hosted and functional.</li>
+			<li>Remotely developed and maintained responsive web applications, creating tailored solutions that met specific client requirements.</li>
+			<li>Built interactive dashboards and quick reports using Highcharts, and generated PDF reports to support business analysis and presentations.</li>
+		
+		</ul>
+		</div>
+	  
+		<div id="company2" class="tab-content">
+		  <h3>Javascript Developer </h3> <br> 
+		  <ul class="styled-list">
+			<li>Tested websites for accessibility compliance using manual techniques and assistive technologies such as NVDA (NonVisual Desktop Access) to ensure usability for individuals with disabilities.</li>
+    <li>Debugged and corrected accessibility issues in HTML, CSS, and JavaScript, aligning with WCAG (Web Content Accessibility Guidelines) to enhance digital inclusion.</li>
+    <li>Collaborated with development and design teams to integrate accessibility best practices into websites and applications from the early stages of development.</li>
+    <li>Provided detailed accessibility audit reports with actionable recommendations and code-level fixes to support long-term compliance and continuous improvement.</li>
+    <li>Maintained up-to-date knowledge of evolving accessibility standards, tools, and legislation to ensure consistent delivery of inclusive user experiences.</li>
+		  </ul>
+		</div>
+	  
+		<div id="company3" class="tab-content">
+		  <h3>Full Stack Developer</h3> <br> 
+		  <ul class="styled-list">
+			<li>Led and mentored a team of 2 developers, providing technical guidance, task allocation, and regular feedback to support their growth and ensure project success.</li>
+			<li>Took ownership of end-to-end project development, including requirement gathering, analysis, system design, implementation, and deployment.</li>
+			<li>Collaborated closely with clients and cross-functional teams, including project managers and stakeholders, to ensure alignment with business goals throughout the development lifecycle.</li>
+			<li>Participated in code reviews, offering constructive feedback to maintain code quality and promote best practices across the team.</li>
+			<li>Coordinated with web designers and website administrators to integrate visual and functional elements seamlessly.</li>
+			<li>Managed server deployment and file uploads, ensuring websites and applications were properly hosted and functional.</li>
+			<li>Remotely developed and maintained responsive web applications, creating tailored solutions that met specific client requirements.</li>
+			<li>Built interactive dashboards and quick reports using Highcharts, and generated PDF reports to support business analysis and presentations.</li>
+		  </ul>
+		</div>
+	  
+	
+	  
+		<script>
+		  function showTab(tabId) {
+			const buttons = document.querySelectorAll('.tab-button');
+			const contents = document.querySelectorAll('.tab-content');
+	  
+			buttons.forEach(btn => btn.classList.remove('active'));
+			contents.forEach(content => content.classList.remove('active'));
+	  
+			document.querySelector(`[onclick="showTab('${tabId}')"]`).classList.add('active');
+			document.getElementById(tabId).classList.add('active');
+		  }
+		</script>
+	  
 		<br class="clear"/>
 	</section>
-	<section id="four_columns">
-		<h2>
-			Lorem ipsum
-		</h2>
-		<article class="img-item">
-			<h3 class="hidden">
-				Dolor sit amet
-			</h3>
-			<figure>
-				<a href="img/example-slide-1.jpg" rel="lightbox" title="Some Title">
-				<span class="thumb-screen"></span>
-				<img src="img/example-slide-1sml.jpg" alt="Some alt text"/>
-				</a>
-				<figcaption>
-					<strong>
-						Photo by: Some Name
-					</strong>
-					Als es die ersten H?gel des Kursivgebirges erklommen hatte
-				</figcaption>
-			</figure>
-		</article>
-		<article class="img-item">
-			<h3 class="hidden">
-				Sit Amet
-			</h3>
-			<figure>
-				<a href="img/example-slide-2.jpg" rel="lightbox" title="Some Title">
-				<span class="thumb-screen"></span>
-				<img src="img/example-slide-2sml.jpg" alt="Some alt text"/>
-				</a>
-				<figcaption>
-					<strong>
-						Photo by: Some Name
-					</strong>
-					warf es einen letzten Blick zur?ck auf die Skyline seiner Heimatstadt Buchstabhausen
-				</figcaption>
-			</figure>
-		</article>
-		<article class="img-item">
-			<h3 class="hidden">
-				Dolor Sit
-			</h3>
-			<figure>
-				<a href="img/example-slide-3.jpg" rel="lightbox" title="Some Title">
-				<span class="thumb-screen"></span>
-				<img src="img/example-slide-3sml.jpg" alt="Some alt text"/>
-				</a>
-				<figcaption>
-					<strong>
-						Photo by: Some Name
-					</strong>
-					die Headline von Alphabetdorf und die Subline seiner eigenen Stra?e.
-				</figcaption>
-			</figure>
-		</article>
-		<article class="img-item">
-			<h3 class="hidden">
-				Lorem Ipsum
-			</h3>
-			<figure>
-				<a href="img/example-slide-4.jpg" rel="lightbox" title="Some Title">
-				<span class="thumb-screen"></span>
-				<img src="img/example-slide-4sml.jpg" alt="Some alt text"/>
-				</a>
-				<figcaption>
-					<strong>
-						Photo by: Some Name
-					</strong>
-					Wehm?tig lief ihm eine rhetorische Frage ?ber die Wange.
-				</figcaption>
-			</figure>
-		</article>
-		<br class="clear"/>
-	</section>
-	<section id="text_columns">
-		<h2 class="hidden">
-			Blindtext
-		</h2>
-		<article class="column1">
-			<h3>
-				Dolor sit amet
-			</h3>
-			<p>
-				Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da, wo sie herk?me w?re sie zigmal umgeschrieben worden und alles, was von ihrem Ursprung noch ?brig w?re, sei das Wort "und" und das Blindtextchen
-				solle umkehren und wieder in sein eigenes, sicheres Land zur?ckkehren.
-			</p>
-			<p>
-				Doch alles Gutzureden konnte es nicht ?berzeugen und so dauerte es nicht lange, bis ihm ein paar heimt?ckische Werbetexter auflauerten, es mit Longe und Parole betrunken machten und es dann in ihre Agentur
-				schleppten, wo sie es f?r ihre Projekte wieder und wieder mi?brauchten.
-			</p>
-		</article>
-		<section class="column2">
-			<h3 class="hidden">
-				Lorem Impsum
-			</h3>
-			<article class="row">
-				<h4 class="hidden">
-					Dolor sit
-				</h4>
-				<img src="img/icon4.png" width="80" class="rocket" alt="Some alt text"/>
-				<p>
-					Und wenn es nicht umgeschrieben wurde, dann benutzen Sie es immernoch.
-				</p>
-			</article>
-			<article class="row">
-				<h4 class="hidden">
-					Ipsum
-				</h4>
-				<img src="img/icon5.png" width="80" class="clock" alt="Some alt text"/>
-				<p>
-					Doch alles Gutzureden konnte es nicht ?berzeugen und so dauerte es nicht.
-				</p>
-			</article>
-		</section>
-	</section>
+
+	<section id="voluntary-experience" class="voluntary-wrapper">
+		<div class="voluntary-container">
+		  <h2>Voluntary Experience</h2>
+	  
+		  <div class="voluntary-card">
+			<div class="vol-icon">🌱</div>
+			<div class="vol-details">
+			  <h3>Museum with No Frontiers - Non-Profit</h3>
+			  <p><strong>Front-End Developer Volunteer</strong> </p>
+			  <p>Designed and implemented responsive, user-friendly front-end interfaces using HTML, CSS, Bootstrap, and Ajax for dynamic interactions.</p>
+			</div>
+		  </div>
+	  
+		  <div class="voluntary-card">
+			<div class="vol-icon">👩‍🏫</div>
+			<div class="vol-details">
+			  <h3>BrainHR IT Solutions</h3>
+			  <p><strong>Web Development Specialist	</strong> </p>
+			  <p>Collaborated closely with team members to design clean, user-friendly interfaces and intuitive user experiences.</p>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	
+
 	<footer>
 		<h2 class="hidden">
 			Our footer
@@ -367,18 +281,20 @@ $(".toggleMobile").removeClass("active");
 			</h3>
 			<div class="wrapper">
 				<div class="social">
-					<a href="javascript:void(0)"><img src="img/icon9.png" alt="google plus" width="25"/></a>
-					<a href="javascript:void(0)"><img src="img/icon6.png" alt="tumblr" width="25"/></a>
-					<a href="javascript:void(0)"><img src="img/icon7.png" alt="youtube" width="25"/></a>
-					<a href="javascript:void(0)"><img src="img/icon8.png" alt="bebo" width="25"/></a>
-					<a href="javascript:void(0)"><img src="img/icon10.png" alt="xing" width="25"/></a>
-				</div>
-				&copy; Copyright 2012 by
-				<a href="http://www.lingulo.com">Lingulo</a>
+					<a href="https://www.linkedin.com/in/abida-ismail-04575b30/" target="_blank">
+  						<i class="fab fa-linkedin fa-2x"></i>
+					</a>
+					<a href="https://github.com/abida89" target="_blank">
+  					<i class="fab fa-github fa-2x"></i>
+					</a>
+
+								</div>
+				&copy; Copyright 2025 by
+				<a href="#">Abida</a>
 				. All Rights Reserved.
-			</div>
+			</div>...
 		</section>
-		<section class="wrapper">
+		<!--<section class="wrapper">
 			<h3 class="hidden">
 				Footer content
 			</h3>
@@ -424,7 +340,7 @@ $(".toggleMobile").removeClass("active");
 					</li>
 				</ul>
 			</article>
-		</section>
+		</section>-->
 	</footer>
     
   
