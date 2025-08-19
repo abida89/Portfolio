@@ -374,7 +374,7 @@ margin: 0 auto;
 padding-top:30px;
 width:auto;
 max-width:900px;
-font-size:14px;
+font-size:10px;
 }
 
 footer .wrapper .column
@@ -700,20 +700,23 @@ footer .wrapper
 {
 width: 350px;
 margin: 0 auto;
-}
+font-size: 10px !important;
 
+
+
+}
 footer .wrapper .column
 {
 margin-top:30px;
 float:none;
-font-size: 14px;
 width: auto;
 }
 
+/*
 footer .wrapper .social
 {
 display:none;
-}
+}*/
 
 }
 
@@ -754,6 +757,8 @@ margin: 0 30px;
 
 footer .wrapper{
     width:auto;
+    font-size: 8px !important;
+
 }
 
 footer .wrapper .column
